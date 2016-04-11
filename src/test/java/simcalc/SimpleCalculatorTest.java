@@ -24,7 +24,13 @@ public class SimpleCalculatorTest {
 	public void testMulti() {
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.mul(10, 20);
-		assertEquals(200,calc.getResult());
+		assertEquals(200,calc.getResult());}
+
+	public void testDiv() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.div(100, 20);
+		assertEquals(5,calc.getResult());
+
 		//fail("Not yet implemented");
 	}
 	
