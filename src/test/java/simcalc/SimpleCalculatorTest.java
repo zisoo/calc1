@@ -20,5 +20,13 @@ public class SimpleCalculatorTest {
 		assertEquals(-10,calc.getResult());
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testMulti() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.mul(10, 20);
+		assertEquals(200,calc.getResult());
+		//fail("Not yet implemented");
+	}
+	
 	}
 
