@@ -20,5 +20,13 @@ public class SimpleCalculatorTest {
 		assertEquals(-10,calc.getResult());
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testDiv() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.div(100, 20);
+		assertEquals(5,calc.getResult());
+		//fail("Not yet implemented");
+	}
+	
 	}
 
