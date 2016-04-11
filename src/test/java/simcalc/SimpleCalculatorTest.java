@@ -33,6 +33,15 @@ public class SimpleCalculatorTest {
 
 		//fail("Not yet implemented");
 	}
+	public void testInc() {
+		SimpleCalculator calc = new SimpleCalculator();
+		calc.inc(100);
+		assertEquals(100,calc.getResult());
+		calc.inc(200);
+		assertEquals(300,calc.getResult());
+
+		//fail("Not yet implemented");
+	}
 	
 	}
 
