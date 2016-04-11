@@ -27,7 +27,7 @@ public class SimpleCalculator {
 	public void inc(int x){
 		result += x;
 	}
-	public void dnc(int x){
+	public void dec(int x){
 		result -= x;
 	}
 	public int getResult(){
